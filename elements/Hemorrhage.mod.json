@@ -1,0 +1,26 @@
+{
+  "_fv": 73,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Hemorrhage",
+    "icon": "hemerophig",
+    "color": {
+      "value": -4975339,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": false,
+    "isCuredbyHoney": true,
+    "modifiers": [],
+    "onStarted": {
+      "name": "HemorrhageEffectStartedapplied"
+    },
+    "onExpired": {
+      "name": "HemorrhageEffectExpires"
+    }
+  }
+}

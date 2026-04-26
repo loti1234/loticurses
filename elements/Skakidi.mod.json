@@ -1,0 +1,22 @@
+{
+  "_fv": 73,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Skakidi",
+    "supportedSlots": "mainhand",
+    "weight": 10,
+    "anvilCost": 1,
+    "maxLevel": 4,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      {
+        "value": "TAG:minecraft:enchantable/sword"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

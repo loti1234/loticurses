@@ -1,0 +1,20 @@
+repositories {
+  maven {
+    url = "https://cursemaven.com"
+    content {
+      includeGroup "curse.maven"
+    }
+  }
+}
+dependencies {
+  def libDir = new File(System.getProperty("user.home"), ".mcreator/lib")
+  def ecaJars = fileTree(dir: libDir, include: 'eca-*-dev.jar').files
+  if (!ecaJars.isEmpty()) {
+    def latestEca = ecaJars.sort { it.name }.last()
+    implementation files(latestEca)
+  } else {
+      implementation fg.deobf("curse.maven:epic-core-api-977556:7705229")
+  }
+}
+
+

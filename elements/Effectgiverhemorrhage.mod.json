@@ -1,0 +1,7 @@
+{
+  "_fv": 73,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"297\" y=\"54\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"itemstack_has_enchantment\"><field name=\"enhancement\">CUSTOM:Internalbleeding</field><value name=\"item\"><block type=\"itemstack_to_mcitem\"></block></value></block></value><statement name=\"DO0\"><block type=\"entity_add_potion\"><field name=\"potion\">CUSTOM:Hemorrhage</field><value name=\"level\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"duration\"><block type=\"math_number\"><field name=\"NUM\">4000</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></statement></block></next></block><block type=\"entity_get_armor_slot_item\" x=\"361\" y=\"252\"><value name=\"slotid\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></xml>"
+  }
+}

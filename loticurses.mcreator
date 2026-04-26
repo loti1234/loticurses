@@ -1,0 +1,257 @@
+{
+  "mod_elements": [
+    {
+      "name": "Skakidi",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skakidi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/enchantment/SkakidiEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Dummy",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dummy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/loticurses/models/item/dummy_spawn_egg.json",
+          "src/main/java/net/mcreator/loticurses/entity/DummyEntity.java",
+          "src/main/java/net/mcreator/loticurses/client/renderer/DummyRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "DummyOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dummy_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/DummyOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Internalbleeding",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "internalbleeding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/enchantment/InternalbleedingEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "HemorrhageEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemorrhage_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/HemorrhageEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HemorrhageEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemorrhage_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/HemorrhageEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hemorrhage",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemorrhage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/potion/HemorrhageMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Effectgiverhemorrhage",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effectgiverhemorrhage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/EffectgiverhemorrhageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Despawn",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/item/DespawnItem.java",
+          "src/main/resources/assets/loticurses/models/item/despawn.json"
+        ]
+      }
+    },
+    {
+      "name": "DespawnLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/DespawnLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DespawnRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/DespawnRightclickedProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Curseofexploding",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curseofexploding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/enchantment/CurseofexplodingEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Curseofexplodingondeathprocedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curseofexplodingondeathprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/CurseofexplodingondeathprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.loticurses.despawn": "Despawn",
+      "enchantment.loticurses.skakidi": "Skakidi",
+      "entity.loticurses.dummy": "Dummy",
+      "enchantment.loticurses.internalbleeding": "curse of internal bleeding",
+      "item.loticurses.dummy_spawn_egg": "Dummy Spawn Egg",
+      "effect.loticurses.hemorrhage": "Hemorrhage",
+      "enchantment.loticurses.curseofexploding": "Curseofexploding"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "loticurses",
+    "modName": "loticurses",
+    "version": "1.0.0",
+    "author": "loti, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "eca"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.loticurses"
+  },
+  "mcreatorVersion": 202400452410
+}
