@@ -1,0 +1,11 @@
+{
+  "traktor_sound": {
+    "subtitle": "subtitles.traktor_sound",
+    "sounds": [
+      {
+        "name": "loticurses:traktorrrrrr",
+        "stream": false
+      }
+    ]
+  }
+}

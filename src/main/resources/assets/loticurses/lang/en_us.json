@@ -1,9 +1,11 @@
 {
   "item.loticurses.despawn": "Despawn",
+  "subtitles.traktor_sound": "TRRAAAAKTORRRRRR",
   "enchantment.loticurses.skakidi": "Skakidi",
   "entity.loticurses.dummy": "Dummy",
   "enchantment.loticurses.internalbleeding": "curse of internal bleeding",
   "item.loticurses.dummy_spawn_egg": "Dummy Spawn Egg",
   "effect.loticurses.hemorrhage": "Hemorrhage",
+  "item.loticurses.traktor": "Traktor",
   "enchantment.loticurses.curseofexploding": "Curseofexploding"
 }

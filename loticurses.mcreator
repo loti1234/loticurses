@@ -214,20 +214,90 @@
           }
         ]
       }
+    },
+    {
+      "name": "Traktor",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "traktor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/loticurses/models/item/traktor.json",
+          "src/main/java/net/mcreator/loticurses/item/TraktorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TraktorLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "traktor_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/TraktorLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Traktorrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "traktorrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/loticurses/recipes/traktorrecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
-  "tag_elements": {},
+  "sound_elements": [
+    {
+      "name": "traktor_sound",
+      "files": [
+        "traktorrrrrr"
+      ],
+      "category": "master",
+      "subtitle": "TRRAAAAKTORRRRRR"
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:Traktor"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item.loticurses.despawn": "Despawn",
+      "subtitles.traktor_sound": "TRRAAAAKTORRRRRR",
       "enchantment.loticurses.skakidi": "Skakidi",
       "entity.loticurses.dummy": "Dummy",
       "enchantment.loticurses.internalbleeding": "curse of internal bleeding",
       "item.loticurses.dummy_spawn_egg": "Dummy Spawn Egg",
       "effect.loticurses.hemorrhage": "Hemorrhage",
+      "item.loticurses.traktor": "Traktor",
       "enchantment.loticurses.curseofexploding": "Curseofexploding"
     }
   },
