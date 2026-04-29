@@ -1,6 +1,21 @@
 
 package net.mcreator.loticurses.item;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.network.chat.Component;
+
+import net.mcreator.loticurses.procedures.EvildespawnlivingentityProcedure;
+
+import java.util.List;
+
 public class EVILDESPAWNItem extends Item {
 	public EVILDESPAWNItem() {
 		super(new Item.Properties().stacksTo(1).fireResistant().rarity(Rarity.EPIC));

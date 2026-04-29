@@ -1,6 +1,7 @@
 package net.mcreator.loticurses.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
 
 public class EvildespawnlivingentityProcedure {
 	public static void execute(Entity entity) {
@@ -9,7 +10,7 @@ public class EvildespawnlivingentityProcedure {
 		if (entity instanceof LivingEntity _entity)
 			_entity.removeAllEffects();
 		if (entity != null) {
-			net.eca.api.EcaAPI.memoryRemoveEntity(entity);
+			net.eca.api.EcaAPI.memoryRemove(entity, net.minecraft.world.entity.Entity.RemovalReason.CHANGED_DIMENSION);
 		}
 	}
 }

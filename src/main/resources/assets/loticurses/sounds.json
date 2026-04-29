@@ -20,5 +20,23 @@
         "stream": true
       }
     ]
+  },
+  "golem_place": {
+    "subtitle": "subtitles.golem_place",
+    "sounds": [
+      {
+        "name": "loticurses:sfx_item_irongolemplace-001_soundwave",
+        "stream": false
+      }
+    ]
+  },
+  "summon_iron_golem": {
+    "subtitle": "subtitles.summon_iron_golem",
+    "sounds": [
+      {
+        "name": "loticurses:sfx_mob_irongolemsummon-001_soundwave",
+        "stream": false
+      }
+    ]
   }
 }
