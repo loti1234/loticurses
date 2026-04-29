@@ -26,7 +26,7 @@ public class TraktorItem extends HoeItem {
 			}
 
 			public int getLevel() {
-				return 0;
+				return 2;
 			}
 
 			public int getEnchantmentValue() {

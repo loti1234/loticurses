@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "loticurses:block/cursite_ore"
+    }
+  }
+}

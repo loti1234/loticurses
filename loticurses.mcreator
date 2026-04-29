@@ -388,6 +388,94 @@
           }
         ]
       }
+    },
+    {
+      "name": "CursiteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/loticurses/forge/biome_modifier/cursite_ore_biome_modifier.json",
+          "src/main/resources/data/loticurses/loot_tables/blocks/cursite_ore.json",
+          "src/main/resources/assets/loticurses/models/block/cursite_ore.json",
+          "src/main/resources/data/loticurses/worldgen/configured_feature/cursite_ore.json",
+          "src/main/resources/assets/loticurses/blockstates/cursite_ore.json",
+          "src/main/java/net/mcreator/loticurses/block/CursiteOreBlock.java",
+          "src/main/resources/data/loticurses/worldgen/placed_feature/cursite_ore.json",
+          "src/main/resources/assets/loticurses/models/item/cursite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackstoneCursiteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackstone_cursite_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/block/BlackstoneCursiteOreBlock.java",
+          "src/main/resources/assets/loticurses/models/block/blackstone_cursite_ore.json",
+          "src/main/resources/assets/loticurses/models/item/blackstone_cursite_ore.json",
+          "src/main/resources/data/loticurses/forge/biome_modifier/blackstone_cursite_ore_biome_modifier.json",
+          "src/main/resources/data/loticurses/loot_tables/blocks/blackstone_cursite_ore.json",
+          "src/main/resources/data/loticurses/worldgen/placed_feature/blackstone_cursite_ore.json",
+          "src/main/resources/assets/loticurses/blockstates/blackstone_cursite_ore.json",
+          "src/main/resources/data/loticurses/worldgen/configured_feature/blackstone_cursite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "RawCursite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_cursite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/item/RawCursiteItem.java",
+          "src/main/resources/assets/loticurses/models/item/raw_cursite.json"
+        ]
+      }
+    },
+    {
+      "name": "EvillinthIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evillinth_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/item/EvillinthIngotItem.java",
+          "src/main/resources/assets/loticurses/models/item/evillinth_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "CursiteOreDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursite_ore_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/loticurses/loot_tables/blocks/cursite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackstoneCursiteOreDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackstone_cursite_ore_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/loticurses/loot_tables/blocks/blackstone_cursite_ore.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -411,6 +499,10 @@
     }
   ],
   "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CursiteOre",
+      "~CUSTOM:BlackstoneCursiteOre"
+    ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:Traktor"
     ]
@@ -419,12 +511,16 @@
   "language_map": {
     "en_us": {
       "subtitles.traktor_sound": "TRRAAAAKTORRRRRR",
+      "block.loticurses.cursite_ore": "Cursite Ore",
       "entity.loticurses.dummy": "Dummy",
       "enchantment.loticurses.curseofexploding": "Curseofexploding",
       "entity.loticurses.the_horror": "The Horrors",
       "subtitles.the_horror_battle_music": "Evil Music",
+      "block.loticurses.blackstone_cursite_ore": "Cursite Ore",
+      "item.loticurses.evillinth_ingot": "Evillinth Ingot",
       "item.loticurses.the_horror_spawn_egg": "The Horrors Spawn Egg",
       "item.loticurses.despawn": "Despawn",
+      "item.loticurses.raw_cursite": "Raw Cursite",
       "enchantment.loticurses.skakidi": "Skakidi",
       "item.loticurses.cursestone": "Cursestone",
       "enchantment.loticurses.internalbleeding": "curse of internal bleeding",

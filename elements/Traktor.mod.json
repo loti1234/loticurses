@@ -14,10 +14,7 @@
     },
     "creativeTabs": [
       {
-        "value": "TOOLS"
-      },
-      {
-        "value": "COMBAT"
+        "value": "CUSTOM:LotiCursesTab"
       }
     ],
     "efficiency": 4.0,
@@ -30,7 +27,7 @@
     },
     "repairItems": [],
     "immuneToFire": true,
-    "blockDropsTier": "WOOD",
+    "blockDropsTier": "IRON",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,

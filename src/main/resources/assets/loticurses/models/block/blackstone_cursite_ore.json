@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "loticurses:block/blackstone_cursite_ore",
+    "up": "loticurses:block/blackstone_cursite_ore",
+    "north": "loticurses:block/blackstone_cursite_ore",
+    "east": "loticurses:block/blackstone_cursite_ore",
+    "south": "loticurses:block/blackstone_cursite_ore",
+    "west": "loticurses:block/blackstone_cursite_ore",
+    "particle": "loticurses:block/blackstone_cursite_ore"
+  },
+  "render_type": "solid"
+}
