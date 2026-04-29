@@ -218,7 +218,7 @@
     {
       "name": "TheHorrorEntityIsHurt",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "the_horror_entity_is_hurt",
       "metadata": {
@@ -236,7 +236,7 @@
     {
       "name": "Thehorrors",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "thehorrors",
       "metadata": {
@@ -262,7 +262,7 @@
     {
       "name": "TheHorror",
       "type": "livingentity",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "the_horror",
       "metadata": {
@@ -276,7 +276,7 @@
     {
       "name": "Traktor",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "traktor",
       "metadata": {
@@ -289,7 +289,7 @@
     {
       "name": "TraktorLivingEntityIsHitWithTool",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "traktor_living_entity_is_hit_with_tool",
       "metadata": {
