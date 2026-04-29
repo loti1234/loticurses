@@ -37,6 +37,7 @@ public class LoticursesModItems {
 	public static final RegistryObject<Item> CURSITE_ORE = block(LoticursesModBlocks.CURSITE_ORE);
 	public static final RegistryObject<Item> EVILSTONE = REGISTRY.register("evilstone", () -> new EvilstoneItem());
 	public static final RegistryObject<Item> EVILDESPAWN = REGISTRY.register("evildespawn", () -> new EVILDESPAWNItem());
+	public static final RegistryObject<Item> STONEORE = block(LoticursesModBlocks.STONEORE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

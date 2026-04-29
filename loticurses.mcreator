@@ -166,7 +166,16 @@
         "files": [
           "src/main/java/net/mcreator/loticurses/procedures/DespawnRightclickedProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
       }
     },
     {
@@ -520,6 +529,35 @@
           "src/main/java/net/mcreator/loticurses/item/EVILDESPAWNItem.java"
         ]
       }
+    },
+    {
+      "name": "Traktorzombiespawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "traktorzombiespawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/TraktorzombiespawnProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Stoneore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stoneore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/loticurses/models/block/stoneore.json",
+          "src/main/resources/assets/loticurses/blockstates/stoneore.json",
+          "src/main/resources/assets/loticurses/models/item/stoneore.json",
+          "src/main/resources/data/loticurses/loot_tables/blocks/stoneore.json",
+          "src/main/java/net/mcreator/loticurses/block/StoneoreBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -544,8 +582,12 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Stoneore",
       "~CUSTOM:CursiteOre",
       "~CUSTOM:BlackstoneCursiteOre"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Stoneore"
     ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:Traktor"
@@ -554,6 +596,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.loticurses.stoneore": "Stoneore",
       "subtitles.traktor_sound": "TRRAAAAKTORRRRRR",
       "entity.loticurses.dummy": "Dummy",
       "entity.loticurses.the_horror": "The Horrors",
