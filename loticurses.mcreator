@@ -554,19 +554,19 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "subtitles.traktor_sound": "TRRAAAAKTORRRRRR",
       "entity.loticurses.dummy": "Dummy",
       "entity.loticurses.the_horror": "The Horrors",
       "enchantment.loticurses.curseofexploding": "Curseofexploding",
       "item.loticurses.the_horror_spawn_egg": "The Horrors Spawn Egg",
       "item.loticurses.despawn": "Despawn",
-      "enchantment.loticurses.internalbleeding": "curse of internal bleeding",
-      "effect.loticurses.hemorrhage": "Hemorrhage",
-      "item_group.loticurses.loti_curses_tab": "Loti\u0027s Curses",
-      "subtitles.traktor_sound": "TRRAAAAKTORRRRRR",
       "enchantment.loticurses.skakidi": "Skakidi",
       "item.loticurses.cursestone": "Cursestone",
+      "enchantment.loticurses.internalbleeding": "curse of internal bleeding",
       "item.loticurses.thehorrors": "Thehorrors",
+      "effect.loticurses.hemorrhage": "Hemorrhage",
       "item.loticurses.dummy_spawn_egg": "Dummy Spawn Egg",
+      "item_group.loticurses.loti_curses_tab": "Loti\u0027s Curses",
       "item.loticurses.traktor": "Traktor"
     }
   },
