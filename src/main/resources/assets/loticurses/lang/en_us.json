@@ -1,12 +1,10 @@
 {
-  "item.loticurses.the_horror_spawn_egg": "The Horrors Spawn Egg",
   "item.loticurses.despawn": "Despawn",
+  "subtitles.traktor_sound": "TRRAAAAKTORRRRRR",
   "enchantment.loticurses.skakidi": "Skakidi",
   "entity.loticurses.dummy": "Dummy",
   "enchantment.loticurses.internalbleeding": "curse of internal bleeding",
-  "item.loticurses.thehorrors": "Thehorrors",
   "item.loticurses.dummy_spawn_egg": "Dummy Spawn Egg",
   "effect.loticurses.hemorrhage": "Hemorrhage",
-  "enchantment.loticurses.curseofexploding": "Curseofexploding",
-  "entity.loticurses.the_horror": "The Horrors"
+  "enchantment.loticurses.curseofexploding": "Curseofexploding"
 }

@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.loticurses.init.LoticursesModTabs;
+import net.mcreator.loticurses.init.LoticursesModSounds;
 import net.mcreator.loticurses.init.LoticursesModMobEffects;
 import net.mcreator.loticurses.init.LoticursesModItems;
 import net.mcreator.loticurses.init.LoticursesModEntities;
@@ -42,6 +43,7 @@ public class LoticursesMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		LoticursesModSounds.REGISTRY.register(bus);
 
 		LoticursesModItems.REGISTRY.register(bus);
 		LoticursesModEntities.REGISTRY.register(bus);

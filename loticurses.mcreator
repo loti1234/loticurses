@@ -216,16 +216,21 @@
       }
     },
     {
-      "name": "ThehorrorsRightclicked",
+      "name": "TheHorrorEntityIsHurt",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "thehorrors_rightclicked",
+      "registry_name": "the_horror_entity_is_hurt",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/loticurses/procedures/ThehorrorsRightclickedProcedure.java"
+          "src/main/java/net/mcreator/loticurses/procedures/TheHorrorEntityIsHurtProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     },
     {
@@ -239,6 +244,19 @@
           "src/main/java/net/mcreator/loticurses/item/ThehorrorsItem.java",
           "src/main/resources/assets/loticurses/models/item/thehorrors.json"
         ]
+      }
+    },
+    {
+      "name": "ThehorrorsRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thehorrors_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/ThehorrorsRightclickedProcedure.java"
+        ],
+        "dependencies": []
       }
     },
     {
@@ -256,40 +274,88 @@
       }
     },
     {
-      "name": "TheHorrorEntityIsHurt",
+      "name": "Traktor",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "traktor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/loticurses/models/item/traktor.json",
+          "src/main/java/net/mcreator/loticurses/item/TraktorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TraktorLivingEntityIsHitWithTool",
       "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "the_horror_entity_is_hurt",
+      "registry_name": "traktor_living_entity_is_hit_with_tool",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/loticurses/procedures/TheHorrorEntityIsHurtProcedure.java"
+          "src/main/java/net/mcreator/loticurses/procedures/TraktorLivingEntityIsHitWithToolProcedure.java"
         ],
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
+        ]
+      }
+    },
+    {
+      "name": "Traktorrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "traktorrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/loticurses/recipes/traktorrecipe.json"
         ]
       }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
-  "tag_elements": {},
+  "sound_elements": [
+    {
+      "name": "traktor_sound",
+      "files": [
+        "traktorrrrrr"
+      ],
+      "category": "master",
+      "subtitle": "TRRAAAAKTORRRRRR"
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:Traktor"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.loticurses.the_horror_spawn_egg": "The Horrors Spawn Egg",
       "item.loticurses.despawn": "Despawn",
+      "subtitles.traktor_sound": "TRRAAAAKTORRRRRR",
       "enchantment.loticurses.skakidi": "Skakidi",
       "entity.loticurses.dummy": "Dummy",
       "enchantment.loticurses.internalbleeding": "curse of internal bleeding",
-      "item.loticurses.thehorrors": "Thehorrors",
       "item.loticurses.dummy_spawn_egg": "Dummy Spawn Egg",
       "effect.loticurses.hemorrhage": "Hemorrhage",
-      "enchantment.loticurses.curseofexploding": "Curseofexploding",
-      "entity.loticurses.the_horror": "The Horrors"
+      "enchantment.loticurses.curseofexploding": "Curseofexploding"
     }
   },
   "foldersRoot": {

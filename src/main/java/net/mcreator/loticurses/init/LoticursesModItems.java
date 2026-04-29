@@ -11,6 +11,7 @@ import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.loticurses.item.TraktorItem;
 import net.mcreator.loticurses.item.ThehorrorsItem;
 import net.mcreator.loticurses.item.DespawnItem;
 import net.mcreator.loticurses.LoticursesMod;
@@ -21,6 +22,7 @@ public class LoticursesModItems {
 	public static final RegistryObject<Item> DESPAWN = REGISTRY.register("despawn", () -> new DespawnItem());
 	public static final RegistryObject<Item> THEHORRORS = REGISTRY.register("thehorrors", () -> new ThehorrorsItem());
 	public static final RegistryObject<Item> THE_HORROR_SPAWN_EGG = REGISTRY.register("the_horror_spawn_egg", () -> new ForgeSpawnEggItem(LoticursesModEntities.THE_HORROR, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> TRAKTOR = REGISTRY.register("traktor", () -> new TraktorItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }
