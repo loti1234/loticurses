@@ -267,9 +267,9 @@
       "registry_name": "the_horror",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/loticurses/entity/TheHorrorEntity.java",
+          "src/main/resources/assets/loticurses/models/item/the_horror_spawn_egg.json",
           "src/main/java/net/mcreator/loticurses/client/renderer/TheHorrorRenderer.java",
-          "src/main/resources/assets/loticurses/models/item/the_horror_spawn_egg.json"
+          "src/main/java/net/mcreator/loticurses/entity/TheHorrorEntity.java"
         ]
       }
     },
@@ -348,14 +348,18 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.loticurses.despawn": "Despawn",
       "subtitles.traktor_sound": "TRRAAAAKTORRRRRR",
-      "enchantment.loticurses.skakidi": "Skakidi",
       "entity.loticurses.dummy": "Dummy",
+      "enchantment.loticurses.curseofexploding": "Curseofexploding",
+      "entity.loticurses.the_horror": "The Horrors",
+      "item.loticurses.the_horror_spawn_egg": "The Horrors Spawn Egg",
+      "item.loticurses.despawn": "Despawn",
+      "enchantment.loticurses.skakidi": "Skakidi",
       "enchantment.loticurses.internalbleeding": "curse of internal bleeding",
+      "item.loticurses.thehorrors": "Thehorrors",
       "item.loticurses.dummy_spawn_egg": "Dummy Spawn Egg",
       "effect.loticurses.hemorrhage": "Hemorrhage",
-      "enchantment.loticurses.curseofexploding": "Curseofexploding"
+      "item.loticurses.traktor": "Traktor"
     }
   },
   "foldersRoot": {
