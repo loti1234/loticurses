@@ -23,6 +23,7 @@ public class LoticursesModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(LoticursesModItems.DUMMY_SPAWN_EGG.get());
+			tabData.accept(LoticursesModItems.THE_HORROR_SPAWN_EGG.get());
 		}
 	}
 }

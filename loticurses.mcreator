@@ -214,6 +214,64 @@
           }
         ]
       }
+    },
+    {
+      "name": "ThehorrorsRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thehorrors_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/ThehorrorsRightclickedProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Thehorrors",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thehorrors",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/item/ThehorrorsItem.java",
+          "src/main/resources/assets/loticurses/models/item/thehorrors.json"
+        ]
+      }
+    },
+    {
+      "name": "TheHorror",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_horror",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/entity/TheHorrorEntity.java",
+          "src/main/java/net/mcreator/loticurses/client/renderer/TheHorrorRenderer.java",
+          "src/main/resources/assets/loticurses/models/item/the_horror_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "TheHorrorEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_horror_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/TheHorrorEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -222,13 +280,16 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.loticurses.the_horror_spawn_egg": "The Horrors Spawn Egg",
       "item.loticurses.despawn": "Despawn",
       "enchantment.loticurses.skakidi": "Skakidi",
       "entity.loticurses.dummy": "Dummy",
       "enchantment.loticurses.internalbleeding": "curse of internal bleeding",
+      "item.loticurses.thehorrors": "Thehorrors",
       "item.loticurses.dummy_spawn_egg": "Dummy Spawn Egg",
       "effect.loticurses.hemorrhage": "Hemorrhage",
-      "enchantment.loticurses.curseofexploding": "Curseofexploding"
+      "enchantment.loticurses.curseofexploding": "Curseofexploding",
+      "entity.loticurses.the_horror": "The Horrors"
     }
   },
   "foldersRoot": {
