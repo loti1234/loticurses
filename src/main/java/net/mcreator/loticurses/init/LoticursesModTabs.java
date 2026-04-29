@@ -24,7 +24,7 @@ public class LoticursesModTabs {
 	public static final RegistryObject<CreativeModeTab> LOTI_CURSES_TAB = REGISTRY.register("loti_curses_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.loticurses.loti_curses_tab")).icon(() -> new ItemStack(LoticursesModItems.CURSESTONE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(LoticursesModItems.CURSESTONE.get());
-			}).build());
+			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {

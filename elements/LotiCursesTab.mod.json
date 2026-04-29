@@ -6,6 +6,6 @@
     "icon": {
       "value": "CUSTOM:Cursestone"
     },
-    "showSearch": false
+    "showSearch": true
   }
 }

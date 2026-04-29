@@ -388,6 +388,50 @@
           }
         ]
       }
+    },
+    {
+      "name": "Evilstone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evilstone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/item/EvilstoneItem.java",
+          "src/main/resources/assets/loticurses/models/item/evilstone.json"
+        ]
+      }
+    },
+    {
+      "name": "EVILDESPAWN",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evildespawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/item/EVILDESPAWNItem.java",
+          "src/main/resources/assets/loticurses/models/item/evildespawn.json"
+        ]
+      }
+    },
+    {
+      "name": "Evildespawnlivingentity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evildespawnlivingentity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/EvildespawnlivingentityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -418,18 +462,28 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.loticurses.evilstone": "Evilstone",
+      "item.loticurses.evilstone.description_0": "EEEEEVVVVIIIIILLLLLL!!!!!!!!!!!!",
       "subtitles.traktor_sound": "TRRAAAAKTORRRRRR",
       "entity.loticurses.dummy": "Dummy",
       "enchantment.loticurses.curseofexploding": "Curseofexploding",
       "entity.loticurses.the_horror": "The Horrors",
+      "item.loticurses.evildespawn": "EVIL despawn",
       "item.loticurses.the_horror_spawn_egg": "The Horrors Spawn Egg",
       "item.loticurses.despawn": "Despawn",
       "enchantment.loticurses.skakidi": "Skakidi",
+      "item.loticurses.evildespawn.description_2": "this is made for misbehaving entities that do not want to despawn no matter what",
+      "item.loticurses.cursestone": "Cursestone",
+      "item.loticurses.evildespawn.description_1": "",
       "enchantment.loticurses.internalbleeding": "curse of internal bleeding",
       "item.loticurses.thehorrors": "Thehorrors",
+      "item.loticurses.evildespawn.description_4": "!!!please do not use this on players it will ban them permanently with no way to bring them back theres a reason there is no despawn all entity around you button for this item!!!",
       "item.loticurses.dummy_spawn_egg": "Dummy Spawn Egg",
       "effect.loticurses.hemorrhage": "Hemorrhage",
-      "item.loticurses.traktor": "Traktor"
+      "item.loticurses.evildespawn.description_3": "",
+      "item.loticurses.traktor": "Traktor",
+      "item_group.loticurses.loti_curses_tab": "Loti\u0027s Curses",
+      "item.loticurses.evildespawn.description_0": "completely removes entities from minecraft\u0027s memory via epic core api thus requires radical atk config to work"
     }
   },
   "foldersRoot": {
