@@ -1,30 +1,20 @@
 {
   "type": "minecraft:block",
+  "random_sequence": "loticurses:blocks/blackstone_cursite_ore",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "loticurses:raw_cursite",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            }
-          ]
+          "name": "loticurses:blackstone_cursite_ore"
         }
       ]
     }
-  ],
-  "random_sequence": "loticurses:blocks/blackstone_cursite_ore"
+  ]
 }

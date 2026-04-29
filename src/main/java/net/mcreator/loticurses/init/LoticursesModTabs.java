@@ -25,11 +25,11 @@ public class LoticursesModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.loticurses.loti_curses_tab")).icon(() -> new ItemStack(LoticursesModItems.CURSESTONE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(LoticursesModItems.TRAKTOR.get());
 				tabData.accept(LoticursesModItems.CURSESTONE.get());
-				tabData.accept(LoticursesModBlocks.CURSITE_ORE.get().asItem());
+				tabData.accept(LoticursesModItems.EVILLINTH_INGOT.get());
 				tabData.accept(LoticursesModBlocks.BLACKSTONE_CURSITE_ORE.get().asItem());
 				tabData.accept(LoticursesModItems.RAW_CURSITE.get());
-				tabData.accept(LoticursesModItems.EVILLINTH_INGOT.get());
-			}).build());
+				tabData.accept(LoticursesModBlocks.CURSITE_ORE.get().asItem());
+			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
