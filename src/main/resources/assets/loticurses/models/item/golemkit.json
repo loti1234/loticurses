@@ -1,0 +1,7 @@
+{
+  "parent": "loticurses:custom/golem_kit",
+  "textures": {
+    "0": "loticurses:block/texture2",
+    "particle": "loticurses:item/golem_kit_texture"
+  }
+}

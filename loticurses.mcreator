@@ -558,6 +558,57 @@
           "src/main/java/net/mcreator/loticurses/block/StoneoreBlock.java"
         ]
       }
+    },
+    {
+      "name": "GolemkitRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golemkit_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/GolemkitRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Golemkit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golemkit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/item/GolemkitItem.java",
+          "src/main/resources/assets/loticurses/models/item/golemkit.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -609,6 +660,7 @@
       "item.loticurses.thehorrors": "Thehorrors",
       "effect.loticurses.hemorrhage": "Hemorrhage",
       "item.loticurses.dummy_spawn_egg": "Dummy Spawn Egg",
+      "item.loticurses.golemkit": "Golem kit",
       "item_group.loticurses.loti_curses_tab": "Loti\u0027s Curses",
       "item.loticurses.traktor": "Traktor"
     }
