@@ -7,5 +7,18 @@
         "stream": false
       }
     ]
+  },
+  "the_horror_battle_music": {
+    "subtitle": "subtitles.the_horror_battle_music",
+    "sounds": [
+      {
+        "name": "loticurses:beyond_ambient",
+        "stream": true
+      },
+      {
+        "name": "loticurses:beyond_new",
+        "stream": true
+      }
+    ]
   }
 }

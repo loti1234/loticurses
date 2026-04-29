@@ -327,6 +327,67 @@
           "src/main/resources/data/loticurses/recipes/traktorrecipe.json"
         ]
       }
+    },
+    {
+      "name": "LotiCursesTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loti_curses_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Cursestone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/loticurses/models/item/cursestone.json",
+          "src/main/java/net/mcreator/loticurses/item/CursestoneItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CursestoneDrop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursestone_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/CursestoneDropProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -338,6 +399,15 @@
       ],
       "category": "master",
       "subtitle": "TRRAAAAKTORRRRRR"
+    },
+    {
+      "name": "the_horror_battle_music",
+      "files": [
+        "beyond_ambient",
+        "beyond_new"
+      ],
+      "category": "music",
+      "subtitle": "Evil Music"
     }
   ],
   "tag_elements": {
