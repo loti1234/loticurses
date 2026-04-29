@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "Loti's Curses",
+    "icon": {
+      "value": "CUSTOM:Cursestone"
+    },
+    "showSearch": false
+  }
+}

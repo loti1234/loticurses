@@ -20,9 +20,9 @@
       "registry_name": "dummy",
       "metadata": {
         "files": [
-          "src/main/resources/assets/loticurses/models/item/dummy_spawn_egg.json",
           "src/main/java/net/mcreator/loticurses/entity/DummyEntity.java",
-          "src/main/java/net/mcreator/loticurses/client/renderer/DummyRenderer.java"
+          "src/main/java/net/mcreator/loticurses/client/renderer/DummyRenderer.java",
+          "src/main/resources/assets/loticurses/models/item/dummy_spawn_egg.json"
         ]
       }
     },
@@ -218,7 +218,7 @@
     {
       "name": "TheHorrorEntityIsHurt",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "the_horror_entity_is_hurt",
       "metadata": {
@@ -236,7 +236,7 @@
     {
       "name": "Thehorrors",
       "type": "item",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "thehorrors",
       "metadata": {
@@ -262,7 +262,7 @@
     {
       "name": "TheHorror",
       "type": "livingentity",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "the_horror",
       "metadata": {
@@ -276,7 +276,7 @@
     {
       "name": "Traktor",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "traktor",
       "metadata": {
@@ -289,7 +289,7 @@
     {
       "name": "TraktorLivingEntityIsHitWithTool",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "traktor_living_entity_is_hit_with_tool",
       "metadata": {
@@ -327,6 +327,67 @@
           "src/main/resources/data/loticurses/recipes/traktorrecipe.json"
         ]
       }
+    },
+    {
+      "name": "Cursestone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/loticurses/models/item/cursestone.json",
+          "src/main/java/net/mcreator/loticurses/item/CursestoneItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LotiCursesTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loti_curses_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CursestoneDrop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursestone_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/CursestoneDropProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -338,6 +399,15 @@
       ],
       "category": "master",
       "subtitle": "TRRAAAAKTORRRRRR"
+    },
+    {
+      "name": "the_horror_battle_music",
+      "files": [
+        "beyond_ambient",
+        "beyond_new"
+      ],
+      "category": "music",
+      "subtitle": "Evil Music"
     }
   ],
   "tag_elements": {
@@ -348,14 +418,21 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.loticurses.despawn": "Despawn",
       "subtitles.traktor_sound": "TRRAAAAKTORRRRRR",
-      "enchantment.loticurses.skakidi": "Skakidi",
       "entity.loticurses.dummy": "Dummy",
+      "enchantment.loticurses.curseofexploding": "Curseofexploding",
+      "entity.loticurses.the_horror": "The Horrors",
+      "subtitles.the_horror_battle_music": "Evil Music",
+      "item.loticurses.the_horror_spawn_egg": "The Horrors Spawn Egg",
+      "item.loticurses.despawn": "Despawn",
+      "enchantment.loticurses.skakidi": "Skakidi",
+      "item.loticurses.cursestone": "Cursestone",
       "enchantment.loticurses.internalbleeding": "curse of internal bleeding",
+      "item.loticurses.thehorrors": "Thehorrors",
       "item.loticurses.dummy_spawn_egg": "Dummy Spawn Egg",
       "effect.loticurses.hemorrhage": "Hemorrhage",
-      "enchantment.loticurses.curseofexploding": "Curseofexploding"
+      "item.loticurses.traktor": "Traktor",
+      "item_group.loticurses.loti_curses_tab": "Loti\u0027s Curses"
     }
   },
   "foldersRoot": {
