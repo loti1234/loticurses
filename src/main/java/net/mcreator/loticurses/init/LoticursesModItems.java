@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.loticurses.item.TraktorItem;
 import net.mcreator.loticurses.item.ThehorrorsItem;
 import net.mcreator.loticurses.item.RawCursiteItem;
+import net.mcreator.loticurses.item.FinalFractureItem;
 import net.mcreator.loticurses.item.EvilstoneItem;
 import net.mcreator.loticurses.item.EvillinthIngotItem;
 import net.mcreator.loticurses.item.EVILDESPAWNItem;
@@ -37,6 +38,7 @@ public class LoticursesModItems {
 	public static final RegistryObject<Item> CURSITE_ORE = block(LoticursesModBlocks.CURSITE_ORE);
 	public static final RegistryObject<Item> EVILSTONE = REGISTRY.register("evilstone", () -> new EvilstoneItem());
 	public static final RegistryObject<Item> EVILDESPAWN = REGISTRY.register("evildespawn", () -> new EVILDESPAWNItem());
+	public static final RegistryObject<Item> FINAL_FRACTURE = REGISTRY.register("final_fracture", () -> new FinalFractureItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

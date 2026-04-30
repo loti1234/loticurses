@@ -29,6 +29,7 @@ public class LoticursesModTabs {
 				tabData.accept(LoticursesModBlocks.BLACKSTONE_CURSITE_ORE.get().asItem());
 				tabData.accept(LoticursesModItems.RAW_CURSITE.get());
 				tabData.accept(LoticursesModBlocks.CURSITE_ORE.get().asItem());
+				tabData.accept(LoticursesModItems.FINAL_FRACTURE.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

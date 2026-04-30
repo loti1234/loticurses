@@ -1,6 +1,7 @@
 package net.mcreator.loticurses.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
 
 public class EvildespawnlivingentityProcedure {
 	public static void execute(Entity entity) {
