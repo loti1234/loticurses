@@ -1,6 +1,9 @@
 
 package net.mcreator.loticurses.item;
 
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.Item;
+
 public class RawCursiteItem extends Item {
 	public RawCursiteItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));

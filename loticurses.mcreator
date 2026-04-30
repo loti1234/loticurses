@@ -20,9 +20,9 @@
       "registry_name": "dummy",
       "metadata": {
         "files": [
+          "src/main/resources/assets/loticurses/models/item/dummy_spawn_egg.json",
           "src/main/java/net/mcreator/loticurses/entity/DummyEntity.java",
-          "src/main/java/net/mcreator/loticurses/client/renderer/DummyRenderer.java",
-          "src/main/resources/assets/loticurses/models/item/dummy_spawn_egg.json"
+          "src/main/java/net/mcreator/loticurses/client/renderer/DummyRenderer.java"
         ]
       }
     },
@@ -157,19 +157,6 @@
       }
     },
     {
-      "name": "DespawnRightclicked",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "despawn_rightclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/loticurses/procedures/DespawnRightclickedProcedure.java"
-        ],
-        "dependencies": []
-      }
-    },
-    {
       "name": "Curseofexploding",
       "type": "enchantment",
       "compiles": true,
@@ -267,9 +254,9 @@
       "registry_name": "the_horror",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/loticurses/entity/TheHorrorEntity.java",
+          "src/main/resources/assets/loticurses/models/item/the_horror_spawn_egg.json",
           "src/main/java/net/mcreator/loticurses/client/renderer/TheHorrorRenderer.java",
-          "src/main/resources/assets/loticurses/models/item/the_horror_spawn_egg.json"
+          "src/main/java/net/mcreator/loticurses/entity/TheHorrorEntity.java"
         ]
       }
     },
@@ -423,13 +410,13 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/loticurses/block/BlackstoneCursiteOreBlock.java",
-          "src/main/resources/assets/loticurses/models/block/blackstone_cursite_ore.json",
-          "src/main/resources/assets/loticurses/models/item/blackstone_cursite_ore.json",
           "src/main/resources/data/loticurses/forge/biome_modifier/blackstone_cursite_ore_biome_modifier.json",
+          "src/main/resources/data/loticurses/worldgen/configured_feature/blackstone_cursite_ore.json",
+          "src/main/resources/assets/loticurses/models/block/blackstone_cursite_ore.json",
           "src/main/resources/data/loticurses/loot_tables/blocks/blackstone_cursite_ore.json",
-          "src/main/resources/data/loticurses/worldgen/placed_feature/blackstone_cursite_ore.json",
           "src/main/resources/assets/loticurses/blockstates/blackstone_cursite_ore.json",
-          "src/main/resources/data/loticurses/worldgen/configured_feature/blackstone_cursite_ore.json"
+          "src/main/resources/data/loticurses/worldgen/placed_feature/blackstone_cursite_ore.json",
+          "src/main/resources/assets/loticurses/models/item/blackstone_cursite_ore.json"
         ]
       }
     },
@@ -466,14 +453,14 @@
       "registry_name": "cursite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/loticurses/forge/biome_modifier/cursite_ore_biome_modifier.json",
-          "src/main/resources/data/loticurses/loot_tables/blocks/cursite_ore.json",
+          "src/main/resources/assets/loticurses/models/item/cursite_ore.json",
           "src/main/resources/assets/loticurses/models/block/cursite_ore.json",
           "src/main/resources/data/loticurses/worldgen/configured_feature/cursite_ore.json",
-          "src/main/resources/assets/loticurses/blockstates/cursite_ore.json",
           "src/main/java/net/mcreator/loticurses/block/CursiteOreBlock.java",
+          "src/main/resources/data/loticurses/loot_tables/blocks/cursite_ore.json",
           "src/main/resources/data/loticurses/worldgen/placed_feature/cursite_ore.json",
-          "src/main/resources/assets/loticurses/models/item/cursite_ore.json"
+          "src/main/resources/data/loticurses/forge/biome_modifier/cursite_ore_biome_modifier.json",
+          "src/main/resources/assets/loticurses/blockstates/cursite_ore.json"
         ]
       }
     },
@@ -485,8 +472,8 @@
       "registry_name": "evilstone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/loticurses/models/item/evilstone.json",
-          "src/main/java/net/mcreator/loticurses/item/EvilstoneItem.java"
+          "src/main/java/net/mcreator/loticurses/item/EvilstoneItem.java",
+          "src/main/resources/assets/loticurses/models/item/evilstone.json"
         ]
       }
     },
@@ -516,8 +503,8 @@
       "registry_name": "evildespawn",
       "metadata": {
         "files": [
-          "src/main/resources/assets/loticurses/models/item/evildespawn.json",
-          "src/main/java/net/mcreator/loticurses/item/EVILDESPAWNItem.java"
+          "src/main/java/net/mcreator/loticurses/item/EVILDESPAWNItem.java",
+          "src/main/resources/assets/loticurses/models/item/evildespawn.json"
         ]
       }
     },
@@ -559,8 +546,8 @@
       "registry_name": "final_fracture",
       "metadata": {
         "files": [
-          "src/main/resources/assets/loticurses/models/item/final_fracture.json",
-          "src/main/java/net/mcreator/loticurses/item/FinalFractureItem.java"
+          "src/main/java/net/mcreator/loticurses/item/FinalFractureItem.java",
+          "src/main/resources/assets/loticurses/models/item/final_fracture.json"
         ]
       }
     },
@@ -572,11 +559,11 @@
       "registry_name": "stoneore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/loticurses/models/item/stoneore.json",
-          "src/main/java/net/mcreator/loticurses/block/StoneoreBlock.java",
           "src/main/resources/assets/loticurses/models/block/stoneore.json",
           "src/main/resources/assets/loticurses/blockstates/stoneore.json",
-          "src/main/resources/data/loticurses/loot_tables/blocks/stoneore.json"
+          "src/main/resources/assets/loticurses/models/item/stoneore.json",
+          "src/main/resources/data/loticurses/loot_tables/blocks/stoneore.json",
+          "src/main/java/net/mcreator/loticurses/block/StoneoreBlock.java"
         ]
       }
     },
@@ -639,8 +626,38 @@
       "registry_name": "golemkit",
       "metadata": {
         "files": [
-          "src/main/resources/assets/loticurses/models/item/golemkit.json",
-          "src/main/java/net/mcreator/loticurses/item/GolemkitItem.java"
+          "src/main/java/net/mcreator/loticurses/item/GolemkitItem.java",
+          "src/main/resources/assets/loticurses/models/item/golemkit.json"
+        ]
+      }
+    },
+    {
+      "name": "Golemkitrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golemkitrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/loticurses/recipes/golemkitrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DespawnRightclickeda",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_rightclickeda",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/DespawnRightclickedaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       }
     }
@@ -702,9 +719,9 @@
     "en_us": {
       "item.loticurses.evilstone.description_0": "EEEEEVVVVIIIIILLLLLL!!!!!!!!!!!!",
       "entity.loticurses.dummy": "Dummy",
-      "enchantment.loticurses.curseofexploding": "Curseofexploding",
-      "entity.loticurses.the_horror": "The Horrors",
       "item.loticurses.evildespawn": "EVIL despawn",
+      "entity.loticurses.the_horror": "The Horrors",
+      "enchantment.loticurses.curseofexploding": "Curseofexploding",
       "item.loticurses.the_horror_spawn_egg": "The Horrors Spawn Egg",
       "item.loticurses.despawn": "Despawn",
       "item.loticurses.evildespawn.description_2": "this is made for misbehaving entities that do not want to despawn no matter what",
@@ -713,8 +730,10 @@
       "item.loticurses.evildespawn.description_4": "!!!please do not use this on players it will ban them permanently with no way to bring them back theres a reason there is no despawn all entity around you button for this item!!!",
       "effect.loticurses.hemorrhage": "Hemorrhage",
       "item.loticurses.evildespawn.description_3": "",
+      "item.loticurses.golemkit": "Golem kit",
       "item_group.loticurses.loti_curses_tab": "Loti\u0027s Curses",
       "item.loticurses.evildespawn.description_0": "completely removes entities from minecraft\u0027s memory via epic core api thus requires radical atk config to work",
+      "block.loticurses.stoneore": "Stoneore",
       "item.loticurses.evilstone": "Evilstone",
       "subtitles.traktor_sound": "TRRAAAAKTORRRRRR",
       "block.loticurses.cursite_ore": "Cursite Ore",
