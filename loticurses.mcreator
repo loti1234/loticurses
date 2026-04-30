@@ -563,6 +563,86 @@
           "src/main/java/net/mcreator/loticurses/item/FinalFractureItem.java"
         ]
       }
+    },
+    {
+      "name": "Stoneore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stoneore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/loticurses/models/item/stoneore.json",
+          "src/main/java/net/mcreator/loticurses/block/StoneoreBlock.java",
+          "src/main/resources/assets/loticurses/models/block/stoneore.json",
+          "src/main/resources/assets/loticurses/blockstates/stoneore.json",
+          "src/main/resources/data/loticurses/loot_tables/blocks/stoneore.json"
+        ]
+      }
+    },
+    {
+      "name": "Traktorzombiespawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "traktorzombiespawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/TraktorzombiespawnProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "GolemkitRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golemkit_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/GolemkitRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Golemkit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golemkit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/loticurses/models/item/golemkit.json",
+          "src/main/java/net/mcreator/loticurses/item/GolemkitItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -583,12 +663,32 @@
       ],
       "category": "music",
       "subtitle": "Evil Music"
+    },
+    {
+      "name": "golem_place",
+      "files": [
+        "sfx_item_irongolemplace-001_soundwave"
+      ],
+      "category": "block",
+      "subtitle": "golem placed"
+    },
+    {
+      "name": "summon_iron_golem",
+      "files": [
+        "sfx_mob_irongolemsummon-001_soundwave"
+      ],
+      "category": "player",
+      "subtitle": "summon iron golem"
     }
   ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Stoneore",
       "~CUSTOM:CursiteOre",
       "~CUSTOM:BlackstoneCursiteOre"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Stoneore"
     ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:Traktor"
