@@ -32,6 +32,9 @@
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "DespawnRightclickeda"
+    },
     "onEntityHitWith": {
       "name": "DespawnLivingEntityIsHitWithItem"
     },

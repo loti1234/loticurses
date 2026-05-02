@@ -166,16 +166,7 @@
         "files": [
           "src/main/java/net/mcreator/loticurses/procedures/DespawnRightclickedProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          }
-        ]
+        "dependencies": []
       }
     },
     {
@@ -650,6 +641,36 @@
         "files": [
           "src/main/resources/assets/loticurses/models/item/golemkit.json",
           "src/main/java/net/mcreator/loticurses/item/GolemkitItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Golemkitrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golemkitrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/loticurses/recipes/golemkitrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DespawnRightclickeda",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_rightclickeda",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/DespawnRightclickedaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       }
     }

@@ -1,8 +1,8 @@
 repositories {
   maven {
-    url = "https://cursemaven.com"
+    url = "https://api.modrinth.com/maven"
     content {
-      includeGroup "curse.maven"
+      includeGroup "maven.modrinth"
     }
   }
 }
@@ -13,7 +13,7 @@ dependencies {
     def latestEca = ecaJars.sort { it.name }.last()
     implementation files(latestEca)
   } else {
-      implementation fg.deobf("curse.maven:epic-core-api-977556:7705229")
+      implementation fg.deobf("maven.modrinth:epic-core-api:1.1.4-fix:dev")
   }
 }
 

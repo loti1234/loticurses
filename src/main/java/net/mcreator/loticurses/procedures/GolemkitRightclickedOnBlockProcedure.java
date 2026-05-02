@@ -26,7 +26,7 @@ public class GolemkitRightclickedOnBlockProcedure {
 			}
 		}
 		if (entity instanceof Player _player)
-			_player.getCooldowns().addCooldown(itemstack.getItem(), 3600);
+			_player.getCooldowns().addCooldown(itemstack.getItem(), 2400);
 		if (world instanceof Level _level) {
 			if (!_level.isClientSide()) {
 				_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("loticurses:summon_iron_golem")), SoundSource.PLAYERS, 1, 1);
