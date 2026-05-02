@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:item/handheld",
+	"loader": "forge:separate_transforms",
+	"base": {
+		"parent": "loticurses:item/final_fracture"
+	},
+	"display": {
+		"gui": {
+			"parent": "loticurses:item/final_fracture_gui"
+		}
+	}
+}
