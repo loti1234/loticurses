@@ -157,19 +157,6 @@
       }
     },
     {
-      "name": "DespawnRightclicked",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "despawn_rightclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/loticurses/procedures/DespawnRightclickedProcedure.java"
-        ],
-        "dependencies": []
-      }
-    },
-    {
       "name": "Curseofexploding",
       "type": "enchantment",
       "compiles": true,
@@ -673,6 +660,16 @@
           }
         ]
       }
+    },
+    {
+      "name": "Goon",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goon",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -758,6 +755,7 @@
       "item.loticurses.cursestone": "Cursestone",
       "item.loticurses.thehorrors": "Thehorrors",
       "item.loticurses.dummy_spawn_egg": "Dummy Spawn Egg",
+      "attribute.loticurses.goon": "Goon",
       "item.loticurses.traktor": "Traktor"
     }
   },
