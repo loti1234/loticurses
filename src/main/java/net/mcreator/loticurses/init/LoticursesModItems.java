@@ -4,6 +4,16 @@
  */
 package net.mcreator.loticurses.init;
 
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
+
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
+
+import net.mcreator.loticurses.item.WitherkitItem;
 import net.mcreator.loticurses.item.TraktorItem;
 import net.mcreator.loticurses.item.ThehorrorsItem;
 import net.mcreator.loticurses.item.RawCursiteItem;
@@ -33,6 +43,7 @@ public class LoticursesModItems {
 	public static final RegistryObject<Item> FINAL_FRACTURE = REGISTRY.register("final_fracture", () -> new FinalFractureItem());
 	public static final RegistryObject<Item> STONEORE = block(LoticursesModBlocks.STONEORE);
 	public static final RegistryObject<Item> GOLEMKIT = REGISTRY.register("golemkit", () -> new GolemkitItem());
+	public static final RegistryObject<Item> WITHERKIT = REGISTRY.register("witherkit", () -> new WitherkitItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
