@@ -20,9 +20,9 @@
       "registry_name": "dummy",
       "metadata": {
         "files": [
-          "src/main/resources/assets/loticurses/models/item/dummy_spawn_egg.json",
           "src/main/java/net/mcreator/loticurses/entity/DummyEntity.java",
-          "src/main/java/net/mcreator/loticurses/client/renderer/DummyRenderer.java"
+          "src/main/java/net/mcreator/loticurses/client/renderer/DummyRenderer.java",
+          "src/main/resources/assets/loticurses/models/item/dummy_spawn_egg.json"
         ]
       }
     },
@@ -254,9 +254,9 @@
       "registry_name": "the_horror",
       "metadata": {
         "files": [
-          "src/main/resources/assets/loticurses/models/item/the_horror_spawn_egg.json",
+          "src/main/java/net/mcreator/loticurses/entity/TheHorrorEntity.java",
           "src/main/java/net/mcreator/loticurses/client/renderer/TheHorrorRenderer.java",
-          "src/main/java/net/mcreator/loticurses/entity/TheHorrorEntity.java"
+          "src/main/resources/assets/loticurses/models/item/the_horror_spawn_egg.json"
         ]
       }
     },
@@ -410,13 +410,13 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/loticurses/block/BlackstoneCursiteOreBlock.java",
-          "src/main/resources/data/loticurses/forge/biome_modifier/blackstone_cursite_ore_biome_modifier.json",
-          "src/main/resources/data/loticurses/worldgen/configured_feature/blackstone_cursite_ore.json",
           "src/main/resources/assets/loticurses/models/block/blackstone_cursite_ore.json",
+          "src/main/resources/assets/loticurses/models/item/blackstone_cursite_ore.json",
+          "src/main/resources/data/loticurses/forge/biome_modifier/blackstone_cursite_ore_biome_modifier.json",
           "src/main/resources/data/loticurses/loot_tables/blocks/blackstone_cursite_ore.json",
-          "src/main/resources/assets/loticurses/blockstates/blackstone_cursite_ore.json",
           "src/main/resources/data/loticurses/worldgen/placed_feature/blackstone_cursite_ore.json",
-          "src/main/resources/assets/loticurses/models/item/blackstone_cursite_ore.json"
+          "src/main/resources/assets/loticurses/blockstates/blackstone_cursite_ore.json",
+          "src/main/resources/data/loticurses/worldgen/configured_feature/blackstone_cursite_ore.json"
         ]
       }
     },
@@ -453,14 +453,14 @@
       "registry_name": "cursite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/loticurses/models/item/cursite_ore.json",
+          "src/main/resources/data/loticurses/forge/biome_modifier/cursite_ore_biome_modifier.json",
+          "src/main/resources/data/loticurses/loot_tables/blocks/cursite_ore.json",
           "src/main/resources/assets/loticurses/models/block/cursite_ore.json",
           "src/main/resources/data/loticurses/worldgen/configured_feature/cursite_ore.json",
+          "src/main/resources/assets/loticurses/blockstates/cursite_ore.json",
           "src/main/java/net/mcreator/loticurses/block/CursiteOreBlock.java",
-          "src/main/resources/data/loticurses/loot_tables/blocks/cursite_ore.json",
           "src/main/resources/data/loticurses/worldgen/placed_feature/cursite_ore.json",
-          "src/main/resources/data/loticurses/forge/biome_modifier/cursite_ore_biome_modifier.json",
-          "src/main/resources/assets/loticurses/blockstates/cursite_ore.json"
+          "src/main/resources/assets/loticurses/models/item/cursite_ore.json"
         ]
       }
     },
@@ -472,8 +472,8 @@
       "registry_name": "evilstone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/loticurses/item/EvilstoneItem.java",
-          "src/main/resources/assets/loticurses/models/item/evilstone.json"
+          "src/main/resources/assets/loticurses/models/item/evilstone.json",
+          "src/main/java/net/mcreator/loticurses/item/EvilstoneItem.java"
         ]
       }
     },
@@ -503,8 +503,8 @@
       "registry_name": "evildespawn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/loticurses/item/EVILDESPAWNItem.java",
-          "src/main/resources/assets/loticurses/models/item/evildespawn.json"
+          "src/main/resources/assets/loticurses/models/item/evildespawn.json",
+          "src/main/java/net/mcreator/loticurses/item/EVILDESPAWNItem.java"
         ]
       }
     },
@@ -546,8 +546,8 @@
       "registry_name": "final_fracture",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/loticurses/item/FinalFractureItem.java",
-          "src/main/resources/assets/loticurses/models/item/final_fracture.json"
+          "src/main/resources/assets/loticurses/models/item/final_fracture.json",
+          "src/main/java/net/mcreator/loticurses/item/FinalFractureItem.java"
         ]
       }
     },
@@ -559,11 +559,11 @@
       "registry_name": "stoneore",
       "metadata": {
         "files": [
+          "src/main/resources/assets/loticurses/models/item/stoneore.json",
+          "src/main/java/net/mcreator/loticurses/block/StoneoreBlock.java",
           "src/main/resources/assets/loticurses/models/block/stoneore.json",
           "src/main/resources/assets/loticurses/blockstates/stoneore.json",
-          "src/main/resources/assets/loticurses/models/item/stoneore.json",
-          "src/main/resources/data/loticurses/loot_tables/blocks/stoneore.json",
-          "src/main/java/net/mcreator/loticurses/block/StoneoreBlock.java"
+          "src/main/resources/data/loticurses/loot_tables/blocks/stoneore.json"
         ]
       }
     },
@@ -626,8 +626,8 @@
       "registry_name": "golemkit",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/loticurses/item/GolemkitItem.java",
-          "src/main/resources/assets/loticurses/models/item/golemkit.json"
+          "src/main/resources/assets/loticurses/models/item/golemkit.json",
+          "src/main/java/net/mcreator/loticurses/item/GolemkitItem.java"
         ]
       }
     },
