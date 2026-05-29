@@ -660,16 +660,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "Goon",
-      "type": "attribute",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "goon",
-      "metadata": {
-        "files": []
-      }
     }
   ],
   "variable_elements": [],
@@ -729,9 +719,9 @@
     "en_us": {
       "item.loticurses.evilstone.description_0": "EEEEEVVVVIIIIILLLLLL!!!!!!!!!!!!",
       "entity.loticurses.dummy": "Dummy",
-      "enchantment.loticurses.curseofexploding": "Curseofexploding",
-      "entity.loticurses.the_horror": "The Horrors",
       "item.loticurses.evildespawn": "EVIL despawn",
+      "entity.loticurses.the_horror": "The Horrors",
+      "enchantment.loticurses.curseofexploding": "Curseofexploding",
       "item.loticurses.the_horror_spawn_egg": "The Horrors Spawn Egg",
       "item.loticurses.despawn": "Despawn",
       "item.loticurses.evildespawn.description_2": "this is made for misbehaving entities that do not want to despawn no matter what",
@@ -755,7 +745,6 @@
       "item.loticurses.cursestone": "Cursestone",
       "item.loticurses.thehorrors": "Thehorrors",
       "item.loticurses.dummy_spawn_egg": "Dummy Spawn Egg",
-      "attribute.loticurses.goon": "Goon",
       "item.loticurses.traktor": "Traktor"
     }
   },

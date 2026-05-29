@@ -24,7 +24,6 @@ import net.mcreator.loticurses.init.LoticursesModItems;
 import net.mcreator.loticurses.init.LoticursesModEntities;
 import net.mcreator.loticurses.init.LoticursesModEnchantments;
 import net.mcreator.loticurses.init.LoticursesModBlocks;
-import net.mcreator.loticurses.init.LoticursesModAttributes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -55,7 +54,6 @@ public class LoticursesMod {
 
 		LoticursesModMobEffects.REGISTRY.register(bus);
 
-		LoticursesModAttributes.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
