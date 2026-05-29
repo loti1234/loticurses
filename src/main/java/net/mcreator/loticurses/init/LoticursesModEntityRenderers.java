@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.loticurses.client.renderer.TheHorrorRenderer;
 import net.mcreator.loticurses.client.renderer.DummyRenderer;
+import net.mcreator.loticurses.client.renderer.AmethystshardRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class LoticursesModEntityRenderers {
@@ -18,5 +19,6 @@ public class LoticursesModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(LoticursesModEntities.DUMMY.get(), DummyRenderer::new);
 		event.registerEntityRenderer(LoticursesModEntities.THE_HORROR.get(), TheHorrorRenderer::new);
+		event.registerEntityRenderer(LoticursesModEntities.AMETHYSTSHARD.get(), AmethystshardRenderer::new);
 	}
 }

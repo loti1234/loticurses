@@ -10,7 +10,7 @@ import net.mcreator.loticurses.procedures.GolemkitRightclickedOnBlockProcedure;
 
 public class GolemkitItem extends Item {
 	public GolemkitItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override
