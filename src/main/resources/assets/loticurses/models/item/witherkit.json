@@ -1,0 +1,7 @@
+{
+  "parent": "loticurses:custom/wither_kit",
+  "textures": {
+    "0": "loticurses:block/texture",
+    "particle": "loticurses:item/texture"
+  }
+}

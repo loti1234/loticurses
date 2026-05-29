@@ -660,6 +660,94 @@
           }
         ]
       }
+    },
+    {
+      "name": "Witherkit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witherkit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/item/WitherkitItem.java",
+          "src/main/resources/assets/loticurses/models/item/witherkit.json"
+        ]
+      }
+    },
+    {
+      "name": "Witherkitrightclick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witherkitrightclick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/WitherkitrightclickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SLOWFALLING",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slowfalling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/potion/SLOWFALLINGMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Amethystshard",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystshard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/entity/AmethystshardEntity.java",
+          "src/main/java/net/mcreator/loticurses/client/renderer/AmethystshardRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Stilts",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stilts",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/potion/StiltsMobEffect.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -719,11 +807,13 @@
     "en_us": {
       "item.loticurses.evilstone.description_0": "EEEEEVVVVIIIIILLLLLL!!!!!!!!!!!!",
       "entity.loticurses.dummy": "Dummy",
+      "effect.loticurses.stilts": "Stilts",
       "item.loticurses.evildespawn": "EVIL despawn",
       "entity.loticurses.the_horror": "The Horrors",
       "enchantment.loticurses.curseofexploding": "Curseofexploding",
       "item.loticurses.the_horror_spawn_egg": "The Horrors Spawn Egg",
       "item.loticurses.despawn": "Despawn",
+      "item.loticurses.witherkit": "Wither kit",
       "item.loticurses.evildespawn.description_2": "this is made for misbehaving entities that do not want to despawn no matter what",
       "item.loticurses.evildespawn.description_1": "",
       "enchantment.loticurses.internalbleeding": "curse of internal bleeding",
@@ -736,6 +826,7 @@
       "block.loticurses.stoneore": "Stoneore",
       "item.loticurses.evilstone": "Evilstone",
       "subtitles.traktor_sound": "TRRAAAAKTORRRRRR",
+      "effect.loticurses.slowfalling": "SLOWFALLING",
       "block.loticurses.cursite_ore": "Cursite Ore",
       "block.loticurses.blackstone_cursite_ore": "Cursite Ore",
       "item.loticurses.final_fracture": "Final Fracture",

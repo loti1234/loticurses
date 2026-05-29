@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "golem_kit_texture",
-    "customModelName": "golem_kit:default",
+    "texture": "texture",
+    "customModelName": "wither_kit:default",
     "customProperties": {},
     "states": [],
-    "name": "Golem kit",
-    "rarity": "COMMON",
+    "name": "Wither kit",
+    "rarity": "UNCOMMON",
     "creativeTabs": [],
     "stackSize": 1,
     "enchantability": 0,
@@ -33,7 +33,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedOnBlock": {
-      "name": "GolemkitRightclickedOnBlock"
+      "name": "Witherkitrightclick"
     },
     "enableRanged": false,
     "shootConstantly": false,
