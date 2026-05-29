@@ -4,12 +4,6 @@
  */
 package net.mcreator.loticurses.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
-
-import net.minecraft.world.effect.MobEffect;
-
 import net.mcreator.loticurses.potion.HemorrhageMobEffect;
 import net.mcreator.loticurses.LoticursesMod;
 

@@ -4,12 +4,6 @@
  */
 package net.mcreator.loticurses.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
-
-import net.minecraft.world.item.enchantment.Enchantment;
-
 import net.mcreator.loticurses.enchantment.SkakidiEnchantment;
 import net.mcreator.loticurses.enchantment.InternalbleedingEnchantment;
 import net.mcreator.loticurses.enchantment.CurseofexplodingEnchantment;

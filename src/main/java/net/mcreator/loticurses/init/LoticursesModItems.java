@@ -4,15 +4,6 @@
  */
 package net.mcreator.loticurses.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.common.ForgeSpawnEggItem;
-
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.BlockItem;
-
 import net.mcreator.loticurses.item.TraktorItem;
 import net.mcreator.loticurses.item.ThehorrorsItem;
 import net.mcreator.loticurses.item.RawCursiteItem;
