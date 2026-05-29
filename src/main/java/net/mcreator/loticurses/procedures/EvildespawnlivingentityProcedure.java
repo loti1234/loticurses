@@ -10,7 +10,7 @@ public class EvildespawnlivingentityProcedure {
 		if (entity instanceof LivingEntity _entity)
 			_entity.removeAllEffects();
 		if (entity != null) {
-			net.eca.api.EcaAPI.memoryRemoveEntity(entity);
+			net.eca.api.EcaAPI.memoryRemove(entity, net.minecraft.world.entity.Entity.RemovalReason.CHANGED_DIMENSION);
 		}
 	}
 }

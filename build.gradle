@@ -1,6 +1,5 @@
 plugins {
     id 'eclipse'
-    id 'org.spongepowered.mixin' version '0.7.+'
     id 'net.minecraftforge.gradle' version '[6.0.16,6.2)'
 }
 
@@ -45,19 +44,6 @@ minecraft {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.3.0'
-    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
-}
-
-mixin {
-    add sourceSets.main, 'mixins.loticurses.refmap.json'
-
-    config 'mixins.loticurses.json'
-
-    debug.verbose = true
-    debug.export = true
-    dumpTargetOnFailure = true
-
-    quiet
 }
 
 tasks.withType(JavaCompile).configureEach {
@@ -65,3 +51,4 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 apply from: 'mcreator.gradle'
+
