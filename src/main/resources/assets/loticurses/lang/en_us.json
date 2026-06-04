@@ -1,4 +1,5 @@
 {
+  "enchantment.loticurses.curseofvelocity": "Curse of velocity",
   "item.loticurses.evilstone.description_0": "EEEEEVVVVIIIIILLLLLL!!!!!!!!!!!!",
   "entity.loticurses.dummy": "Dummy",
   "effect.loticurses.stilts": "Stilts",
@@ -6,6 +7,7 @@
   "entity.loticurses.the_horror": "The Horrors",
   "enchantment.loticurses.curseofexploding": "Curseofexploding",
   "item.loticurses.the_horror_spawn_egg": "The Horrors Spawn Egg",
+  "effect.loticurses.overwhelmingvelocity": "Overwhelming velocity",
   "item.loticurses.despawn": "Despawn",
   "item.loticurses.witherkit": "Wither kit",
   "item.loticurses.evildespawn.description_2": "this is made for misbehaving entities that do not want to despawn no matter what",
@@ -16,6 +18,7 @@
   "item.loticurses.evildespawn.description_3": "",
   "item.loticurses.golemkit": "Golem kit",
   "item_group.loticurses.loti_curses_tab": "Loti\u0027s Curses",
+  "enchantment.loticurses.curseofstiltlegs": "Curse of stilt legs",
   "item.loticurses.evildespawn.description_0": "completely removes entities from minecraft\u0027s memory via epic core api thus requires radical atk config to work",
   "block.loticurses.stoneore": "Stoneore",
   "item.loticurses.evilstone": "Evilstone",

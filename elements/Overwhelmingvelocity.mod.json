@@ -2,8 +2,8 @@
   "_fv": 73,
   "_type": "potioneffect",
   "definition": {
-    "effectName": "Stilts",
-    "icon": "exploded",
+    "effectName": "Overwhelming velocity",
+    "icon": "slowfalling",
     "color": {
       "value": -1,
       "falpha": 0.0
@@ -13,29 +13,22 @@
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
     "isCuredByMilk": false,
-    "isProtectedByTotem": true,
+    "isProtectedByTotem": false,
     "isCuredbyHoney": false,
     "modifiers": [
       {
         "attribute": {
-          "value": "STEP_HEIGHT"
+          "value": "MOVEMENT_SPEED"
         },
-        "amount": 4.0,
-        "operation": "ADD_VALUE"
+        "amount": 2.0,
+        "operation": "ADD_MULTIPLIED_TOTAL"
       },
       {
         "attribute": {
-          "value": "KNOCKBACK_RESISTANCE"
+          "value": "MAX_HEALTH"
         },
-        "amount": -3.0,
-        "operation": "ADD_VALUE"
-      },
-      {
-        "attribute": {
-          "value": "ENTITY_GRAVITY"
-        },
-        "amount": 0.15,
-        "operation": "ADD_VALUE"
+        "amount": -0.5,
+        "operation": "ADD_MULTIPLIED_TOTAL"
       }
     ]
   }

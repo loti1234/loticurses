@@ -115,10 +115,6 @@
             "type": "entity"
           },
           {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -748,6 +744,64 @@
           "src/main/java/net/mcreator/loticurses/potion/StiltsMobEffect.java"
         ]
       }
+    },
+    {
+      "name": "Effectgiverstilts",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effectgiverstilts",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/procedures/EffectgiverstiltsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Curseofstiltlegs",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curseofstiltlegs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/enchantment/CurseofstiltlegsEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Curseofvelocity",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curseofvelocity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/enchantment/CurseofvelocityEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Overwhelmingvelocity",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overwhelmingvelocity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/loticurses/potion/OverwhelmingvelocityMobEffect.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -787,6 +841,10 @@
     }
   ],
   "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:BlackstoneCursiteOre",
+      "~CUSTOM:CursiteOre"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:Stoneore",
       "~CUSTOM:CursiteOre",
@@ -805,6 +863,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "enchantment.loticurses.curseofvelocity": "Curse of velocity",
       "item.loticurses.evilstone.description_0": "EEEEEVVVVIIIIILLLLLL!!!!!!!!!!!!",
       "entity.loticurses.dummy": "Dummy",
       "effect.loticurses.stilts": "Stilts",
@@ -812,6 +871,7 @@
       "entity.loticurses.the_horror": "The Horrors",
       "enchantment.loticurses.curseofexploding": "Curseofexploding",
       "item.loticurses.the_horror_spawn_egg": "The Horrors Spawn Egg",
+      "effect.loticurses.overwhelmingvelocity": "Overwhelming velocity",
       "item.loticurses.despawn": "Despawn",
       "item.loticurses.witherkit": "Wither kit",
       "item.loticurses.evildespawn.description_2": "this is made for misbehaving entities that do not want to despawn no matter what",
@@ -822,6 +882,7 @@
       "item.loticurses.evildespawn.description_3": "",
       "item.loticurses.golemkit": "Golem kit",
       "item_group.loticurses.loti_curses_tab": "Loti\u0027s Curses",
+      "enchantment.loticurses.curseofstiltlegs": "Curse of stilt legs",
       "item.loticurses.evildespawn.description_0": "completely removes entities from minecraft\u0027s memory via epic core api thus requires radical atk config to work",
       "block.loticurses.stoneore": "Stoneore",
       "item.loticurses.evilstone": "Evilstone",

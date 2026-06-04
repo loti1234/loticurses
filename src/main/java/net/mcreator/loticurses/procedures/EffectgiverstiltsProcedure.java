@@ -19,7 +19,7 @@ import net.mcreator.loticurses.init.LoticursesModEnchantments;
 import javax.annotation.Nullable;
 
 @Mod.EventBusSubscriber
-public class EffectgiverhemorrhageProcedure {
+public class EffectgiverstiltsProcedure {
 	@SubscribeEvent
 	public static void onEquipmentChange(LivingEquipmentChangeEvent event) {
 		execute(event, event.getEntity().level(), event.getEntity());
@@ -32,12 +32,12 @@ public class EffectgiverhemorrhageProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if (EnchantmentHelper.getItemEnchantmentLevel(LoticursesModEnchantments.INTERNALBLEEDING.get(), (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY)) != 0) {
+		if (EnchantmentHelper.getItemEnchantmentLevel(LoticursesModEnchantments.CURSEOFSTILTLEGS.get(), (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY)) != 0) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(LoticursesModMobEffects.HEMORRHAGE.get(), 999999, 0));
+				_entity.addEffect(new MobEffectInstance(LoticursesModMobEffects.STILTS.get(), 999999, 0));
 		} else {
 			if (entity instanceof LivingEntity _entity)
-				_entity.removeEffect(LoticursesModMobEffects.HEMORRHAGE.get());
+				_entity.removeEffect(LoticursesModMobEffects.STILTS.get());
 		}
 	}
 }

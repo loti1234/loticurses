@@ -1,7 +1,6 @@
 
 package net.mcreator.loticurses.potion;
 
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.ai.attributes.AttributeMap;
 import net.minecraft.world.entity.LivingEntity;
@@ -28,8 +27,6 @@ public class HemorrhageMobEffect extends MobEffect {
 	@Override
 	public List<ItemStack> getCurativeItems() {
 		ArrayList<ItemStack> cures = new ArrayList<ItemStack>();
-		cures.add(new ItemStack(Items.MILK_BUCKET));
-		cures.add(new ItemStack(Items.HONEY_BOTTLE));
 		return cures;
 	}
 

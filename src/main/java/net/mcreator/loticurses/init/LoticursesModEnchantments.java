@@ -12,6 +12,8 @@ import net.minecraft.world.item.enchantment.Enchantment;
 
 import net.mcreator.loticurses.enchantment.SkakidiEnchantment;
 import net.mcreator.loticurses.enchantment.InternalbleedingEnchantment;
+import net.mcreator.loticurses.enchantment.CurseofvelocityEnchantment;
+import net.mcreator.loticurses.enchantment.CurseofstiltlegsEnchantment;
 import net.mcreator.loticurses.enchantment.CurseofexplodingEnchantment;
 import net.mcreator.loticurses.LoticursesMod;
 
@@ -20,4 +22,6 @@ public class LoticursesModEnchantments {
 	public static final RegistryObject<Enchantment> SKAKIDI = REGISTRY.register("skakidi", () -> new SkakidiEnchantment());
 	public static final RegistryObject<Enchantment> INTERNALBLEEDING = REGISTRY.register("internalbleeding", () -> new InternalbleedingEnchantment());
 	public static final RegistryObject<Enchantment> CURSEOFEXPLODING = REGISTRY.register("curseofexploding", () -> new CurseofexplodingEnchantment());
+	public static final RegistryObject<Enchantment> CURSEOFSTILTLEGS = REGISTRY.register("curseofstiltlegs", () -> new CurseofstiltlegsEnchantment());
+	public static final RegistryObject<Enchantment> CURSEOFVELOCITY = REGISTRY.register("curseofvelocity", () -> new CurseofvelocityEnchantment());
 }

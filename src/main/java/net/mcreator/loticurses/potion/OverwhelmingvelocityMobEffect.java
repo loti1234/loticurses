@@ -1,9 +1,6 @@
 
 package net.mcreator.loticurses.potion;
 
-import net.minecraftforge.common.ForgeMod;
-
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
@@ -13,18 +10,16 @@ import net.minecraft.world.effect.MobEffect;
 import java.util.List;
 import java.util.ArrayList;
 
-public class StiltsMobEffect extends MobEffect {
-	public StiltsMobEffect() {
+public class OverwhelmingvelocityMobEffect extends MobEffect {
+	public OverwhelmingvelocityMobEffect() {
 		super(MobEffectCategory.NEUTRAL, -1);
-		this.addAttributeModifier(ForgeMod.STEP_HEIGHT_ADDITION.get(), "9f72effa-ec55-35f2-b171-cef1b0465045", 4, AttributeModifier.Operation.ADDITION);
-		this.addAttributeModifier(Attributes.KNOCKBACK_RESISTANCE, "5899993c-fb2e-3920-91df-b14b300bd74a", -3, AttributeModifier.Operation.ADDITION);
-		this.addAttributeModifier(ForgeMod.ENTITY_GRAVITY.get(), "850b0c93-af33-3690-b7fe-07818b8d1141", 0.15, AttributeModifier.Operation.ADDITION);
+		this.addAttributeModifier(Attributes.MOVEMENT_SPEED, "e120ed88-6f65-32dd-a109-83e3cf2938d1", 2, AttributeModifier.Operation.MULTIPLY_TOTAL);
+		this.addAttributeModifier(Attributes.MAX_HEALTH, "85812387-de10-35d4-a05b-6ed5f6d47a75", -0.5, AttributeModifier.Operation.MULTIPLY_TOTAL);
 	}
 
 	@Override
 	public List<ItemStack> getCurativeItems() {
 		ArrayList<ItemStack> cures = new ArrayList<ItemStack>();
-		cures.add(new ItemStack(Items.TOTEM_OF_UNDYING));
 		return cures;
 	}
 

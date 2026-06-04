@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "loticurses:blackstone_cursite_ore",
+    "loticurses:cursite_ore"
+  ]
+}

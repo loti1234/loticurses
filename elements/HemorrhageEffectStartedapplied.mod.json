@@ -2,6 +2,6 @@
   "_fv": 73,
   "_type": "procedure",
   "definition": {
-    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"-48\" y=\"59\"><field name=\"trigger\">entity_effect_added</field><next><block type=\"entity_execute_command\"><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">eca banHealing @eca_s true</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></next></block></xml>"
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"-30\" y=\"248\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"eca_ban_healing\"><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><value name=\"value\"><block type=\"math_number\"><field name=\"NUM\">20</field></block></value></block></next></block></xml>"
   }
 }

@@ -12,9 +12,9 @@
     "mobEffectCategory": "HARMFUL",
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
-    "isCuredByMilk": true,
+    "isCuredByMilk": false,
     "isProtectedByTotem": false,
-    "isCuredbyHoney": true,
+    "isCuredbyHoney": false,
     "modifiers": [],
     "onStarted": {
       "name": "HemorrhageEffectStartedapplied"
